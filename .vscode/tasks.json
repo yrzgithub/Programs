@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "dotnet:run",
+			"type": "shell",
+			"command":"dotnet run --project d:\\Code\\C#\\C#.csproj",
+		}
+	]
+}

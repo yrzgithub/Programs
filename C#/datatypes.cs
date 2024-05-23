@@ -16,8 +16,8 @@ namespace DataTypes {
                 nint ni = 3;
                 nuint nui = 4;
 
-                long l = 5;
-                ulong ul = 6;
+                long l = 5l;
+                ulong ul = 6ul;
 
                 short s = 7;
                 ushort us = 8;
