@@ -5,16 +5,15 @@ using Constants;
 class Basics {
     public static void Main(String[] args)
     {
+
         DataTypes.DataTypes types = new DataTypes.DataTypes();
         types.datatypes();
 
-
         Constant constant = new Constant();
-
 
         int @int = 143;            // Using pre-defined keyword as variable or identifier.
         Console.WriteLine(@int);   // Accessing the variable.
-
+        add(@int,@int);
         string str = @"String";
         Console.WriteLine(str);
 
@@ -25,7 +24,6 @@ class Basics {
         //int b = Convert.ToInt32(Console.ReadLine());
 
         //Console.Write("A + B : " + add(a,b));
-
 
         Console.WriteLine("Size of int : " + sizeof(int));
 
@@ -38,8 +36,6 @@ class Basics {
         StringReader reader = convertObj as StringReader;
 
         Console.WriteLine(reader);
-
-
 
         Decisions.Decisions decision = new Decisions.Decisions();
         decision.decideif();
